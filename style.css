@@ -1,0 +1,154 @@
+
+
+
+.A-container{
+    position: relative;
+    background: #1E73E8;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 34px;
+    font-weight: bold;
+    
+}
+
+.A-container::before{
+    position: absolute;
+    content: '';
+    background: rgb(243, 239, 239);
+    height: 200%;
+    width: 100%;
+    margin-top: 35px;
+}
+
+#A-page{
+    margin-right: 50%;
+    margin-top: 5px;
+}
+.icon{
+    margin-top: 3px; 
+    font-size: 1.2rem;
+}
+.fa-user-circle{
+    padding: 6px;
+}
+.fa-caret-down{
+    padding: 6px;
+}
+
+
+
+
+
+.sidebar{
+    width: 20%;
+    padding: 10px;
+    margin-left: 5%;
+    background:white;
+    
+}
+
+ul{
+    list-style: none;
+    padding: 10px;
+}
+ul li{
+    border-bottom: 1px solid black;
+    padding: 10px;
+
+}
+
+ul li:nth-child(1){
+    background: #1E73E8;
+    color: white;
+    border-bottom: none;
+}
+
+ul li:nth-child(10){
+    border-bottom: none;
+}
+
+.B-container{
+    display: flex;
+    margin-top: 60px; 
+    background: rgb(243, 239, 239);
+}
+.B-main{
+    margin-top: 15px;
+    margin-left: 22px;
+    
+}
+.B-main button{
+    width: 70%;
+    margin-left: 70px;
+}
+.B-list{
+    margin-top: 10%;
+    background: #FFFFFF;
+}
+
+.B-main h5{
+margin-top: 32px;
+padding: 10px;
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 19px;
+}
+.B-end span{
+    text-decoration: line-through;
+    
+}
+#pen {
+    color: #32A636;
+}
+
+
+.B-end{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -24px;
+
+}
+.B-end div:nth-child(1){
+    
+   
+    height: 80px;
+   
+}
+
+.B-end p{
+    margin-top: -40px;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    padding-left: 10px;
+}
+.footer{
+    background: #1E73E8;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    height: 6%;
+
+}
+.footer p{
+    margin-top: 8px;
+
+    
+}
+
+#A-pen h5, #A-pen p{
+    background: white;
+    padding-right: 6px;
+    padding-bottom: 2px;
+}
+#B-pen h5, #B-pen p{
+    background: white;
+    padding-right: 6px;
+    padding-bottom: 2px;
+}
+#C-pen h5, #C-pen p{
+    background: white;
+    padding-right: 70px;
+    padding-bottom: 2px;
+}
